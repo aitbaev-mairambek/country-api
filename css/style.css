@@ -394,3 +394,20 @@ body {
 		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	}	
 }
+
+@media (max-width: 1200px) {
+	.modal {
+
+		flex-direction: column;
+	}
+	.leftModal {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.rightModal {
+		width: 100%;
+	}
+	.modalInfo {
+		flex-direction: column;
+	}
+}
